@@ -1,0 +1,23 @@
+<ion-content>
+  <div class="header">
+  </div>
+
+  <h2 class="class">Informe a quantidade de adultos:</h2>
+  <ion-item>
+    <ion-input type="number" [(ngModel)]="qtdAdultos" placeholder="Ex: 5"></ion-input>
+  </ion-item>
+
+  <h2>Informe a quantidade de crianças:</h2>
+  <ion-item>
+    <ion-input type="number" [(ngModel)]="qtdCriancas" placeholder="Ex: 10"></ion-input>
+  </ion-item>
+
+  <ion-button (click)="calcular()">CALCULAR</ion-button>
+
+  <div class="resultado">
+    <h1 class="titulo">RESULTADO</h1>
+    <h1><span class="nome2">SALGADINHOS:</span> {{totalSalgadinho}} unidades</h1>
+    <h1><span class="nome2">REFRIGERANTE:</span> {{totalRefrigerante}} litros</h1>
+    <h1><span class="nome2">BOLO:</span> {{totalBolo}} kg</h1>
+  </div>
+</ion-content>

@@ -1,0 +1,84 @@
+ion-content{
+  --background: #FED3DD;
+  text-align: center;
+
+}
+
+h3{
+  color: #f92b5b;
+  margin: 0%;
+  font-size: 45px;
+  font-weight: 600;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ion-item{
+  border-radius: 10px;
+  margin: 0 32px;
+}
+
+.header{
+  display: flex;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+  background-size: 420px;
+  background-image: url(headerV2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ion-button{
+  margin: 20px 0;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  --background: #2a57aa;
+  --background-activated: #85a1c5;
+  font-size: 27px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  height: 85px;
+  width: 200px;
+}
+h2{
+  color: 	#2a57aa;
+  font-size: 20px;
+  font-weight:700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nome2{
+  color: #6f427a;
+  font-size: 20px;
+  font-weight:800;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.class{
+  margin-top: 40px;
+}
+
+h1{
+  color: 	#B080BC ;
+  font-size: 22px;
+  font-weight:700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resultado{
+  margin-left: 30px;
+  align-items: center;
+  border-radius: 20px;
+  height: 250px;
+  width: 85%;
+  border-style: dashed;
+  border-color: #2a57aa;
+  background-color: rgba(255, 255, 255, 0.479);
+}
+
+.titulo{
+  color:#2a57aa;
+  font-size: 40px;
+  font-weight:700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
